@@ -1,8 +1,29 @@
-<head>Test test</head>
-    <body>
-    <p>Hello this is a test</p>
-    
-<!-- Brevo Conversations {literal} -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World</title>
+        <style>
+            html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                background-color: green;
+            }
+            #container {
+                width: inherit;
+                height: inherit;
+                margin: 0;
+                padding: 0;
+                background-color: pink;
+            }
+            h1 {
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <!-- Brevo Conversations {literal} -->
 <script>
     (function(d, w, c) {
         w.BrevoConversationsID = '64a6125ffc0bb275593bd08e';
@@ -16,4 +37,9 @@
     })(document, window, 'BrevoConversations');
 </script>
 <!-- /Brevo Conversations {/literal} -->
-</body>
+    <body>
+        <div id="container">
+            <h1>Hello World</h1>
+        </div>
+    </body>
+</html>
